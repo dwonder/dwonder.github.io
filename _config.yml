@@ -1,2 +1,4 @@
 name: dwonder: Dayo
 markdown: kramdownmarkdown: kramdown
+
+theme: jekyll-theme-cayman
