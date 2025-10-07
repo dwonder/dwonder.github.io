@@ -1,29 +1,81 @@
-!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:d4dayo@gmail.com">mymail</a></li>
-	        		<li><a href="https://github.com/dwoder">github.com/dwonder</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me | Dayo "dwonder"</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1 class="page-header">About Me</h1>
+
+      <div class="content-section">
+        <div class="text-content">
+          <h2>My Philosophy</h2>
+          <p>
+            I believe technology should be an enabler, not a bottleneck. In the
+            world of enterprise networking, it's easy to get lost in acronyms and
+            complex diagrams. I cut through the noise by focusing on two things:
+            <strong>reliability</strong> and <strong>return on investment</strong>. A
+            network isn't just cables and routers; it's the central nervous
+            system of a modern business. My job is to make it faster, smarter,
+            and more secure.
+          </p>
+        </div>
+        <div class="image-placeholder">
+          Image of you at a whiteboard or datacenter (250x250)
+        </div>
+      </div>
+
+      <div class="content-section">
+        <div class="text-content">
+          <h2>My Journey</h2>
+          <p>
+            My fascination with how things connect started early, taking apart
+            old radios and building small circuits. This curiosity led me to a
+            career in network engineering, where I've had the privilege of
+            working on everything from local area networks for small businesses
+            to complex, multi-cloud environments for global corporations. I am a
+            firm believer in continuous learning, constantly exploring new frontiers
+            in SDN, network automation, and cybersecurity.
+          </p>
+        </div>
+        <div class="image-placeholder">
+          Image of your DIY project or workshop (250x250)
+        </div>
+      </div>
+
+      <div class="content-section">
+        <div class="text-content">
+          <h2>Outside the Office</h2>
+          <p>
+            When I'm not architecting networks, I'm usually in my workshop with
+            a soldering iron in hand. I'm a die-hard DIY enthusiast, building
+            everything from home automation gadgets with Raspberry Pi to custom
+            mechanical keyboards. This hands-on approach to problem-solving is
+            something I bring back to my professional work every day.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul>
+        <li><a href="mailto:d4dayo@gmail.com">email</a></li>
+        <li>
+          <a href="https://github.com/dwonder" target="_blank"
+            >github.com/dwonder</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
